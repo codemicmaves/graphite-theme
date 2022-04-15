@@ -32,7 +32,8 @@
 ;;; Theme faces
 
 (defgroup graphite-theme nil
-  "Group for graphite theme variables")
+  "Group for graphite theme variables"
+  :group 'graphite)
 
 (defvar graphite/color-green    "#0B7764")
 (defvar graphite/color-yellow   "#FAA632")
@@ -152,7 +153,7 @@
    `(org-headline-done   ((,class (:foreground ,graphite-fg-inactive))))
    `(org-checkbox        ((,class (:foreground ,graphite-fg-inactive))))
    `(org-special-keyword ((,class (:inherit default :foreground ,graphite-red))))
-   `(org-date            ((,class (:inherit default :foreground ,graphite-violet))))
+   `(org-date            ((,class (:inherit default :foreground ,graphite-violet)))))
    
    ;; Custom variables
    (custom-theme-set-variables
@@ -163,10 +164,11 @@
    )
 
 ;;;###autoload
-  (when load-file-name
-    (add-to-list 'custom-theme-load-path
-		 (file-name-as-directory (file-name-directory load-file-name)))))
-
+(and load-file-name
+     (boundp 'custom-theme-load-path)
+     (add-to-list 'custom-theme-load-path
+                  (file-name-as-directory
+                   (file-name-directory load-file-name))))
 
 (provide-theme 'graphite-light)
 
