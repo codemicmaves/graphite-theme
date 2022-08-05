@@ -3,8 +3,27 @@
 A simple and elegant color theme for emacs with light and dark variants. 
 
 * Screenshots
+
+** Dashboard
 [[https://github.com/codemicmaves/graphite-theme/raw/master/images/graphite-theme-light.png]]
 [[https://github.com/codemicmaves/graphite-theme/raw/master/images/graphite-theme-dark.png]]
+
+** Org Mode
+[[https://github.com/codemicmaves/graphite-theme/raw/master/images/graphite-light-orgmode.png]]
+[[https://github.com/codemicmaves/graphite-theme/raw/master/images/graphite-dark-orgmode.png]]
+
+** Emacs Lisp
+[[https://github.com/codemicmaves/graphite-theme/raw/master/images/graphite-light-elisp.png]]
+[[https://github.com/codemicmaves/graphite-theme/raw/master/images/graphite-dark-elisp.png]]
+
+** Bash Script
+[[https://github.com/codemicmaves/graphite-theme/raw/master/images/graphite-light-bash.png]]
+[[https://github.com/codemicmaves/graphite-theme/raw/master/images/graphite-dark-bash.png]]
+
+** CPP
+[[https://github.com/codemicmaves/graphite-theme/raw/master/images/graphite-light-cpp.png]]
+[[https://github.com/codemicmaves/graphite-theme/raw/master/images/graphite-dark-cpp.png]]
+
 
 * License
 Graphite-theme

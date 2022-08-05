@@ -102,14 +102,16 @@
    `(isearch   ((,class (:background ,graphite-yellow))))
 
    ;; Syntax/Font Lock
-   `(font-lock-comment-face  ((,class (:inherit shadow))))
-   `(font-lock-keyword-face  ((,class (:foreground ,graphite-keyword))))
-   `(font-lock-builtin-face  ((,class (:foreground ,graphite-builtin))))
-   `(font-lock-type-face     ((,class (:foreground ,graphite-type))))   
-   `(font-lock-string-face   ((,class (:foreground ,graphite-string))))
-   `(font-lock-doc-face      ((,class (:foreground ,graphite-string))))   
-   `(font-lock-constant-face ((,class (:foreground ,graphite-constant))))
-   `(font-lock-warning-face  ((,class (:foreground ,graphite-warning :weight semi-bold))))
+   `(font-lock-comment-face        ((,class (:inherit shadow))))
+   `(font-lock-function-name-face  ((,class (:foreground ,graphite-blue))))
+   `(font-lock-keyword-face        ((,class (:foreground ,graphite-keyword))))
+   `(font-lock-builtin-face        ((,class (:foreground ,graphite-builtin))))
+   `(font-lock-type-face           ((,class (:foreground ,graphite-type))))   
+   `(font-lock-string-face         ((,class (:foreground ,graphite-string))))
+   `(font-lock-doc-face            ((,class (:foreground ,graphite-string))))   
+   `(font-lock-constant-face       ((,class (:foreground ,graphite-constant))))
+   `(font-lock-warning-face        ((,class (:foreground ,graphite-warning :weight semi-bold))))
+   `(sh-quoted-exec                ((,class (:foreground ,graphite-violet))))
    
    ;; Mode Line
    `(mode-line          ((,class (:background ,graphite-bg :foreground ,graphite-fg :overline ,graphite-fg))))
