@@ -1,6 +1,6 @@
 * Graphite-theme
 
-A simple and elegant color theme for emacs with light and dark variants. This there is a work-in-progress. Styles for components are constantly being added.
+A simple and elegant color theme for emacs with light and dark variants. 
 
 * Screenshots
 [[https://github.com/codemicmaves/graphite-theme/raw/master/images/graphite-theme-light.png]]
