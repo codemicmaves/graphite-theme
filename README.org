@@ -3,8 +3,8 @@
 A simple and elegant color theme for emacs with light and dark variants. This there is a work-in-progress. Styles for components are constantly being added.
 
 * Screenshots
-[[https://github.com/codemicmaves/graphite-theme/blob/e58ff00a773659e045fd0c8311df250a44cda858/images/graphite-theme-light.png?raw=t]]
-[[https://github.com/codemicmaves/graphite-theme/blob/e58ff00a773659e045fd0c8311df250a44cda858/images/graphite-theme-dark.png?raw=t]]
+[[https://github.com/codemicmaves/graphite-theme/raw/master/images/graphite-theme-light.png]]
+[[https://github.com/codemicmaves/graphite-theme/raw/master/images/graphite-theme-dark.png]]
 
 * License
 Graphite-theme
